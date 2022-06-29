@@ -14,7 +14,7 @@ from torch.utils.cpp_extension import (
 from subprocess import run
 import glob
 
-build_functorch = True
+build_functorch = False
 
 srcs = [
     'torchdim/csrc/dim.cpp',
